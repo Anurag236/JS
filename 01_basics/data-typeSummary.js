@@ -35,3 +35,28 @@ const myFunction = function(){
 myFunction();
 
 console.log(typeof(myFunction));
+
+
+// memory
+
+//stack -> Prtimitive  -> copy
+//heap -> Nom-primitive  -> reference
+
+let name1 = "anurag"
+let name2 = name1
+name2 = "hunny"
+
+console.log(name1);
+console.log(name2);
+
+let userOne = {
+    email  : "abc@gmail.com",
+    upi : "user@upi"
+}
+
+let userTwo = userOne
+
+userTwo.email = "122@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);

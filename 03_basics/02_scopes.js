@@ -43,7 +43,7 @@ function addOne(num){
      return num+1;
 }
 
-console.log(addTwo(98))     //hoisting
+// console.log(addTwo(98))     //hoisting
 const addTwo = function(num){
     return num + 2
 }

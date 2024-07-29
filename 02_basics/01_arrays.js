@@ -13,9 +13,9 @@ const myArr2 = new Array(1, 2, 3, 4)
 // myArr.pop()
 
 // console.log(myArr)
-//myArr.unshift(9)
+//myArr.unshift(9)  //adds at first
 //console.log(myArr)
-// myArr.shift()
+// myArr.shift()   //removes from the first
 // console.log(myArr)
 
 // console.log(myArr.includes(9));
