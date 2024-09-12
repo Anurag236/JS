@@ -1,3 +1,2 @@
-h)
-console.log(Math.abs(-4))
-console.log(Math.roun
+e[0]);
+console.log(gameName.__proto__);

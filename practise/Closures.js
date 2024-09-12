@@ -1,5 +1,8 @@
-//Lexical Scope
+// A closure is the combination of a function bundled together with referencs to its surroundings
+//In other words, a closure gives you the access to an outer's functions scope from an inner function
+// outer func ke variable ko inner func access kar paye    
 
+//Lexical Scope -> is the ability of a func scope to access var from the parent scope
 var username = "Road";
 
 //global scope

@@ -1,4 +1,6 @@
 //currying in javasript
+//Currying refers to the process of transforming a function with multiple arity
+//into the same function with less arity.
 
 function f(a) {
   return function (b) {
@@ -28,7 +30,7 @@ function add(a) {
   };
 }
 
-console.log(add(5)(2)(4)(8)());
+console.log("add " +add(5)(2)(4)(8)());
 
 //currying vs partial application
 //Partial application transfrom a function into another function with small arity(no. of arguments, or operands the fuction recieve)

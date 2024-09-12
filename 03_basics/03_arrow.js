@@ -46,3 +46,34 @@ const chai = ()=>{
 //if we want to return object
 const addTwo = (num1,num2)=>  ({username:"hunny"})    
 console.log(addTwo(3,4))
+
+var obj1 = {
+    valueOfThis: function(){
+      return this;
+    }
+  }
+  var obj2 = {
+    valueOfThis: ()=>{
+      return this;
+    }
+  }
+  
+ console.log(obj1.valueOfThis()); // Will return the object obj1
+ console.log(obj2.valueOfThis());
+
+ var variable1 = 23;
+
+let variable2 = 89;
+
+function catchValues(){
+  console.log(variable1);
+  console.log(variable2);
+
+// Both the variables can be accessed anywhere since they are declared in the global scope
+}
+catchValues();
+
+var a  = 10
+a= 20
+
+const a = 10

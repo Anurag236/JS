@@ -36,6 +36,11 @@ if(true){
 //console.log(username)
 
 //different ways of declaring functions
+var namee;
+namee ="anurag"
+namee = 12
+
+console.log(namee);
 
 console.log(addOne(3))
 
@@ -47,3 +52,8 @@ function addOne(num){
 const addTwo = function(num){
     return num + 2
 }
+
+
+var y = 234;
+y = 23;
+console.log(y);

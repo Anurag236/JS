@@ -78,3 +78,9 @@ function returnSecondValue(getArray){
 }
 console.log(returnSecondValue(myarr))
 console.log(returnSecondValue([200,100,500,766]))
+
+function add(a,b){
+    return a + b;
+  }
+  console.log(add(5,7)); 
+  
